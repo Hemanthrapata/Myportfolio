@@ -341,6 +341,10 @@ nav .fas{
         font-size: 30px;
 
     }
+    .about-img{
+        background-image:remove.url(images/bgremove2.png)
+        background-img:url(images/bgremoveHDcopy)
+    }
     nav .fas{
         display: block;
         font-size: 25px;

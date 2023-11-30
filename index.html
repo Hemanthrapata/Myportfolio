@@ -215,10 +215,10 @@
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            msg.innerHTML="Your response sent successfully Thankyou"
+            msg.innerHTML="Your response sent successfully to Hemanth Thankyou"
             setTimeout(function(){
                 msg.innerHTML=""
-            },1000)
+            },5000)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))

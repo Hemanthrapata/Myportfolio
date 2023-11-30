@@ -19,6 +19,7 @@ body{
     background-position: right;
     background-size: 25%;
     background-repeat: no-repeat;
+    margin-bottom:-150px; 
 }
 .container{
 padding: 10px 10%;
@@ -329,7 +330,8 @@ nav .fas{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/bgremoveHD.png);
+        background-image: remove.url(images/bgremoveHD.png);
+        margin-bottom: -200px;
     }
     .header-text{
         margin-top: 15%;

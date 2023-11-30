@@ -331,6 +331,7 @@ nav .fas{
 @media only screen and (max-width:600px){
     #header{
         background-image: remove.url(images/bgremoveHDcopy.png);
+        background-image:add.url(none);
         margin-bottom: -500px;
     }
     .header-text{
@@ -342,8 +343,8 @@ nav .fas{
 
     }
     .about-img{
-        background-image:remove.url(images/bgremove2.png)
-        background-img:url(images/bgremoveHDcopy)
+        background-image:remove.url(images/bgremove2.png);
+        background-img:add.url(images/bgremoveHDcopy.png);
     }
     nav .fas{
         display: block;

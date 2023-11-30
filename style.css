@@ -331,7 +331,7 @@ nav .fas{
 @media only screen and (max-width:600px){
     #header{
         background-image: remove.url(images/bgremoveHD.png);
-        margin-bottom: -200px;
+        margin-bottom: -350px;
     }
     .header-text{
         margin-top: 15%;

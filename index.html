@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00216642a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="logo-pg">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Hemanth</span><br>From Andhrapradesh</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="about-img" src="images/bgremove2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-me-paragraph"> Hello, I'm Hemanthkumar Rapata, a passionate Frontend Developer With a love for crafting digital solutions.My journey in the world of technology began with a curiosity 
+                    that evolved into a deep-seated commitment to creating innovative and efficient applications.My enthusiasm for technology goes beyond coding. I am driven by the belief thet well-crafted software
+                     has the power to enhance user experiences and solve real-world problems.
+                    Whether i'm working on the frontend to create intuitive interfaces or delving into backend complexibilies, i thrive on the dynamic nature of Frontend development.
+                    In the ever-evolving tech landscape, I am committed to continuous learning.I stay abreast of the latest industry trends and Technologies,seeking opportunities to expand my skill set and 
+                    contribute meaningfully to every project i undertake.I'm excited about the possibilities that technology presents,and i'm always open to new challenges and collaborations.If you're looking for a dedicated FrontendDeveloper passionateabout delivering
+                    hign-quality solutions,let's connect!!
+                    </p>
+        <br>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Frontend Development</span><br>HTML,CSS,Bootstrap,Flex-box and JavaScript</HTML></li>
+                    <li><span>Backend Developement</span><br>Python-Object Oriented Programming,Libraries</li>
+                    <li><span>IDE</span><br>Pycharm,Visual Studio Code,Replit,Github</li>
+                    <li><span>Operating System</span><br>
+                        <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2022 - 2023</span><br>Jr-Executive at ITC INFOTECH,Bangalore</li>
+                    <li><span>Internship</span><br>Nxtwave 4.0 Technologies</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2020</span><br>Srikrishna Devaraya University <br>B.sc.,Computer Science</li>
+                    <li><span>2017</span><br>Nalanda Junior College <br>M.P.C</li>
+                    <li><span>2015</span><br>A P R School of Excellence Kodigenahalli</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="services-text">
+                <h2>Web Devolopment</h2>
+                <p>
+                    <ul>
+                        <li>Create responsive and interactive websites using HTML,CSS and JavaScript.</li>
+                        <li>Implement user interfaces based on design mockups</li>
+                        <li>implement animations and transitions to enhance user engagement.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="services-text">
+                <h2>Backend Development</h2>
+                <p>
+                    <ul>
+                        <li>Developer server-side logic and databases for web applications</li>
+                        <li>Write Scripts to automate repetitive tasks or processes</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work" >
+                <img src="images/my-work-1.jpg">
+                <div class="layer">
+                    <h3>Web Interfaces</h3>
+                    <p>Development of Webpages dynamically good Experience on More modern DOM Applications</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work" >
+                <img src="images/todolistIMG.webp">
+                <div class="layer">
+                    <h3>To-Do List Web Application</h3>
+                    <p>Developed a feature-rich and intuative to-do list web application using
+                        a combination of HTML,CSS, and JavaScript.The Product aimed to provide 
+                        users with a streamlined and visually appealing tool for organizing tasks 
+                        and improvinf productivity</p>
+                    <a href="https://www.hemanthkumartod.ccbp.tech"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work" >
+                <img src="images/GuessingGameImg.webp">
+                <div class="layer">
+                    <h3>Guessing Game Web Application</h3>
+                    <p>Designed and implemented an engaging and interactive guessing game web application
+                        using HTML,CSS and JavaScript.The Project was crafted to provide users with an
+                        entertaining their experience while challenging their intuition and decision-making skills
+                    </p>
+                    <a href="https://www.hemanthguess.ccbp.tech"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> hemanthkumar8777@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9182483957</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/My-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fas fa-copyright"></i> Hemanth. Made with <i class="fas fa-heart"></i> by Hemanth Devs</p>
+    </div>
+</div>
+<script>
+    let tablinks=document.getElementsByClassName("tab-links");
+    let tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8KStscEwPWaiy2PLDL6oXLuTCyKASpBk2wk3ls126sKd8bO1kIlPfxsqwAth9fjMtPw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Your response sent successfully Thankyou"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>

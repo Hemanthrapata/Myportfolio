@@ -15,9 +15,9 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/bgremoveHD.png);
+    background-image: url(images/bgremoveHDcopy.png);
     background-position: right;
-    background-size: 30%;
+    background-size: 25%;
     background-repeat: no-repeat;
 }
 .container{

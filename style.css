@@ -330,8 +330,7 @@ nav .fas{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: remove.url(images/bgremoveHDcopy.png);
-        background-image:add.url(none);
+        background-image: none;
         margin-bottom: -500px;
     }
     .header-text{
